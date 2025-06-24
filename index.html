@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#f76c6c">
+
+</head>
+<body>
+    <center>
+    <div class="navbar">
+        <h1>Book Ninja⚔️</h1>
+    </div>
+    </center>
+    
+    <div class="container">
+        <div class="book-container">
+            <h2>rich dad poor dad</h2>
+            <h5>robert</h5>
+            <p>
+                <li>The poor and the middle class work for money. The rich have money work for them.</li>
+                <li>It’s not how much money you make. It’s how much money you keep.</li>
+                <li>The single most powerful asset we all have is our mind. If it is trained well, it can create enormous wealth.</li>
+                <li>Financial freedom is available to those who learn about it and work for it.</li>
+                <li>Don’t work for money, work to learn.</li>
+
+            </p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+
+
+        
+
+    </div>
+
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="Short Description" id="book-description-input"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+
+
+
+    <button class="add-button" id="add-popup-button">+</button>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
