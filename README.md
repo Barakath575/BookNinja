@@ -20,8 +20,3 @@ Your ninja awaits: [BookNinja Live](https://barakath575.github.io/BookNinja/)
 
 
 
-> Pro Tip: Upload your own screenshot to showcase the app’s style.
-
----
-
-💡 Fun Fact: Even ninjas need notes. BookNinja makes sure yours are safe, sharp, and ready when you are. 🥷
